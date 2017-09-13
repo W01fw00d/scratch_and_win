@@ -1,5 +1,11 @@
-# W01fw00d Portfolio v0.1
-My portfolio, as a way to introduce myself as a full-stack web developer.
+# Scratch and Win! v1.1
+Game prototype. Use the mouse to erase the grey layer that is covering the picture and go thorught each of the increasingly difficult 30 levels. 
+
+All assets with CC0 Creative Commons License:
+* Images from https://pixabay.com/
+* Sounds from http://freesound.org/
 
 Includes:
-* React
+* Jquery
+* Jquery color
+* Bootstrap
