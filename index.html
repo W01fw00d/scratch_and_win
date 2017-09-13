@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Memories</title>
+</head>
+
+<body>
+    
+    <div id="header_container">
+        <header id="main_header"> 
+            <p id="titulo"> [Memories] </p>
+            <p id="nivel"></p>
+            <p id="crono"></p>
+            <p id="dinero"> Monedero: 1 € </p>
+            <p id="audio"></p>
+            <button id="config_button">Options</button>
+            
+        </header> 
+    </div>
+    
+    <br><br>
+    
+    <div id="aviso"></div>
+    
+    <div id="container_canvas">
+        
+    
+        
+        <div id="puntero">
+            <p></p>
+        </div>
+        
+    
+        <div id="sketch">
+	       <canvas id="paint"></canvas>
+        </div>  
+    </div>
+    
+    
+    <div id="container">
+        
+        <div id="img_fondo"></div>
+        
+    </div>
+    
+    <div id="config_panel">
+            
+            <br>
+            <form id="config_nombre">
+                ¿Quien eres?
+                <input type="text" placeholder="viejo amigo">
+            </form>
+            <form id="config_audio">
+                Elige tu cancion: 
+                <input type="text" list="song_list" placeholder="Song" >
+                <datalist id="song_list"> 
+                    <option label="Fire Emblem Melee" value="song1">
+                </datalist>
+            </form>
+            <form id="config_color">
+                Elige tu color: 
+               <input type="color" name="favcolor" value="#74076B">
+            </form>
+            <button id='config_rainbow'> Rainbow </button>
+            
+            <form id="config_titulo">
+                Elige tu titulo: 
+                <input type="text" placeholder="Memories">
+            </form>
+            <form id="config_forma">
+                Elige tu forma: 
+                <input type="text" list="forma_list" placeholder="Círculo" >
+                <datalist id="forma_list"> 
+                    <option label="Circulo" value="circulo">
+                </datalist>
+            </form>
+            <br>
+            <form id="config_trucos">
+                <input type="text" placeholder="???">
+            </form>
+            <br><br>
+            <button id="aplicar"> Aplicar </button>
+            <br><br>
+            <button id='subirNivel'> 1 €: 1 nivel  </button>
+            <br><br>
+            <button id='config_reiniciar'> Reiniciar </button>
+        </div>
+    
+</body>
+
+
+<!--Jquery-->
+<script src="src/lib/jquery-2.1.4.js" charset="UTF-8"></script>
+
+<!--Jquery colors-->
+<script src="src/lib/jquery.color.js" charset="UTF-8"></script>
+
+<!--CSS stylesheets-->
+<link rel="stylesheet" type="text/css" href="src/stylesheets/index.css">
+
+<!--Javascript-->
+<script src="src/scripts/index.js" charset="UTF-8"></script>
+
+</html>
+
+
