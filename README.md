@@ -1,4 +1,4 @@
-# Scratch and Win! v1.1
+# Scratch and Win! v1.2
 Game prototype. Use the mouse to erase the grey layer that is covering the picture and go thorught each of the increasingly difficult 30 levels. 
 
 All assets with CC0 Creative Commons License:
@@ -8,4 +8,3 @@ All assets with CC0 Creative Commons License:
 Includes:
 * Jquery
 * Jquery color
-* Bootstrap
