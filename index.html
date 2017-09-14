@@ -1,53 +1,42 @@
 <!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Memories</title>
+    </head>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Memories</title>
-</head>
-
-<body>
-    
-    <div id="header_container">
-        <header id="main_header"> 
-            <p id="titulo"> [Memories] </p>
-            <p id="nivel"></p>
-            <p id="crono"></p>
-            <p id="dinero"> Monedero: 1 € </p>
-            <p id="audio"></p>
-            <button id="config_button">Options</button>
-            
-        </header> 
-    </div>
-    
-    <br><br>
-    
-    <div id="aviso"></div>
-    
-    <div id="container_canvas">
-        
-    
-        
-        <div id="puntero">
-            <p></p>
+    <body>
+        <div id="header_container">
+            <header id="main_header"> 
+                <p id="titulo"> [Memories] </p>
+                <p id="nivel"></p>
+                <p id="crono"></p>
+                <p id="purse"> Purse: 1 € </p>
+                <p id="audio"></p>
+                <button id="config_button">Options</button>
+            </header> 
         </div>
-        
-    
-        <div id="sketch">
-	       <canvas id="paint"></canvas>
-        </div>  
-    </div>
-    
-    
-    <div id="container">
-        
-        <div id="img_fondo"></div>
-        
-    </div>
-    
-    <div id="config_panel">
-            
+
+        <br><br>
+
+        <div id="aviso"></div>
+
+        <div id="container_canvas">
+            <div id="puntero">
+                <p></p>
+            </div>
+
+            <div id="sketch">
+               <canvas id="paint"></canvas>
+            </div>  
+        </div>
+
+        <div id="container">
+            <div id="background_image"></div>
+        </div>
+
+        <div id="config_panel">
             <br>
-            <form id="config_nombre">
+            <form id="config_name">
                 ¿Quien eres?
                 <input type="text" placeholder="viejo amigo">
             </form>
@@ -63,7 +52,7 @@
                <input type="color" name="favcolor" value="#74076B">
             </form>
             <button id='config_rainbow'> Rainbow </button>
-            
+
             <form id="config_titulo">
                 Elige tu titulo: 
                 <input type="text" placeholder="Memories">
@@ -86,22 +75,19 @@
             <br><br>
             <button id='config_reiniciar'> Reiniciar </button>
         </div>
-    
-</body>
+    </body>
 
+    <!--Jquery-->
+    <script src="src/lib/jquery-2.1.4.js" charset="UTF-8"></script>
 
-<!--Jquery-->
-<script src="src/lib/jquery-2.1.4.js" charset="UTF-8"></script>
+    <!--Jquery colors-->
+    <script src="src/lib/jquery.color.js" charset="UTF-8"></script>
 
-<!--Jquery colors-->
-<script src="src/lib/jquery.color.js" charset="UTF-8"></script>
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" type="text/css" href="src/stylesheets/index.css">
 
-<!--CSS stylesheets-->
-<link rel="stylesheet" type="text/css" href="src/stylesheets/index.css">
-
-<!--Javascript-->
-<script src="src/scripts/index.js" charset="UTF-8"></script>
-
+    <!--Javascript-->
+    <script src="src/scripts/canvas.js" charset="UTF-8"></script>
+    <script src="src/scripts/options_menu.js" charset="UTF-8"></script>
+    <script src="src/scripts/index.js" charset="UTF-8"></script>
 </html>
-
-

@@ -1,4 +1,4 @@
-html, body{
+html, body {
     width: 100%;
     height:100%;
     margin: 0 auto;
@@ -7,7 +7,7 @@ html, body{
     position:absolute;
 }
 
-button, input{
+button, input {
     font-size: 1.5vw;
 }
 
@@ -20,20 +20,19 @@ button, input{
 }
 
 #main_header {
-    background: #74076B /*#343434*/;
+    background: #74076B;
     color: White;
     padding: 1%;
     height: 2vw;
 }
 
-#titulo, #crono, #nivel, #dinero, #audio {
-    float:left;
+#titulo, #crono, #nivel, #purse, #audio {
+    float: left;
     width: 15%;
     margin-top: 0;
 }
 
 #container, #container_canvas{
-
     left: 0;
     right: 0;
 	margin-left:auto;
@@ -46,11 +45,9 @@ button, input{
     font-size: 2vw;
 }
 
-
-#img_fondo{
+#background_image{
 	width: 100%;
 	height: 100%;
-    
     z-index: 1;
 }
 
@@ -59,7 +56,6 @@ button, input{
 	border: 10px solid gray;
 	height: 100%;
 	width: 100%;
-    
     z-index: 2;
 }
 
@@ -68,28 +64,21 @@ button, input{
 	left: 0px; right: 0;
 	bottom: 0; top: 0;
 	cursor: crosshair;
-    
     z-index: 3;
 }
-
 
 #puntero {
     position: absolute;
     background: #74076B;
-    /*margin: 5%;*/
     font-weight: bold;
     text-align: center;
     border-radius: 200px 200px 200px 200px;
-    
-    z-index: 4;
-    
     pointer-events: none;
+    z-index: 4;
 }
-
 
 #config_button {
     float:right;
-    /*margin: 0.75%;*/
 }
 
 #config_panel {
@@ -104,8 +93,7 @@ button, input{
     z-index: 101:
 }
 
-#aviso{
-    z-index: 100;
+#aviso {
     position: absolute;
     left: 0;
     right: 0;
@@ -113,27 +101,23 @@ button, input{
     font-size: 2vw;
     font-weight: bolder;
     color: White;
+    z-index: 100;
 }
 
-#boom{
-    background: Orange;
-}
-
-#aplicar{
+#aplicar {
     color: White;
     background: #003600;
 }
 
-#config_reiniciar{
+#config_reiniciar {
     color: White;
     background: #520806;
 }
 
-#subirNivel{
+#subirNivel {
     background: #ffdc99;
 }
 
-#aviso, #titulo, #config_button, #aplicar, #config_nombre, #config_titulo, #config_audio, #config_color, #config_color2, #config_forma, #cooldown, #config_reiniciar, #config_song, #crono, #config_rainbow, #nivel, #dinero, #subirNivel, #config_trucos{
+#aviso, #titulo, #config_button, #aplicar, #config_nombre, #config_titulo, #config_audio, #config_color, #config_color2, #config_forma, #cooldown, #config_reiniciar, #config_song, #crono, #config_rainbow, #nivel, #purse, #subirNivel, #config_trucos {
     display: none;
 }
-
